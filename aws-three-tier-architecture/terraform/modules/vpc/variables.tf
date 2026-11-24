@@ -25,9 +25,9 @@ variable "environment" {
     type = string 
 }
 variable "project-name"{
-    default = "three-tier-app"
+    type = string
 }
 variable "vpc_cidr"{
-    default = "10.0.0.0/16"
+    type = string
 }
 

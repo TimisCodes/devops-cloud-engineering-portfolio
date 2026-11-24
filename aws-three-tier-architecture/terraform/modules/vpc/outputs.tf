@@ -2,7 +2,7 @@ output "vpc_id" {
     value = aws_vpc.main.id 
 }
 output "public_subnet_ids" {
-    value = aws_subnet.public[*].id
+    value = aws_subnet.public[*].id # [*] - Stands for multiple ids like 2 or more
 }
 output "web_subnet_ids" {
     value = aws_subnet.web[*].id 
